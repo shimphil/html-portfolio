@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PackLite</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./PS-style.css" />
+  </head>
+  <body >
+    <!-- NAV BLOCK -->
+    <nav
+      class="navbar navbar-expand-md bg-white sticky-top mt-4 mb-3"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <!-- LOGO -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-suitcase mb-2" viewBox="0 0 16 16">
+            <path d="M6 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 6 5m2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 10 5"/>
+            <path d="M6.5 0a.5.5 0 0 0-.5.5V3H5a2 2 0 0 0-2 2v8a2 2 0 0 0 1.031 1.75A1.003 1.003 0 0 0 5 16a1 1 0 0 0 1-1h4a1 1 0 1 0 1.969-.25A2 2 0 0 0 13 13V5a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-.5-.5zM9 3H7V1h2zm3 10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1z"/>
+          </svg>
+        </a>
+        <h5>PackLite</h5>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav flex-grow-1 justify-content-center gap-5">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-expanded="false">Guides</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Italy</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"></a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <svg class="bi" width="24" height="24">
+                  <use xlink:href="#cart"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </nav>
+    <!-- INTRO BLOCK -->
+    <section id="cover">
+      <div
+        class="position-relative overflow-hidden p-3 p-md-5 m-md-0 text-center background-image"
+        >
+        </a>
+        <div class="col-md-6 p-lg-5 mx-auto my-5">
+          <h1 class="display-3 text-white fw-bold">Get Ready to Travel </h1>
+          <h3 class="fw-normal text-white mb-2">
+            Everything you need for your next trip.
+          </h3>
+          <div class="d-flex justify-content-center pt-4">
+            <button
+              class="btn btn-bd-primary rounded-pill px-4 gradient-background border-0"
+              type="button"
+              style="height: 3.5rem; width: 10rem"
+            >
+              Explore
+            </button>
+          </div>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div
+          class="product-device product-device-2 shadow-sm d-none d-md-block"
+        ></div>
+      </div>
+    </section>
+    <section class="py-5 pb-0 text-center container">
+      <div class="row pt-lg-5 ">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-normal ">Choose Your Next Destination</h1>
+          <p class="lead text-body-secondary mb-0">The Mediterranean Coast? The culturally-rich cities of India? <br/> Take your pick and relax, we've done the research for you.</p>
+        </div>
+      </div>
+    </section>
+    <div class="album py-5 ">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <img src="./images/tropea-image.jpg" alt="tropea-image" class="card-image col-12">
+                <h5 class="card-text">Tropea, Italy</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-dark">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <img src="./images/rome-image.jpg" alt="rome-image" class="card-image col-12">
+                <h5 class="card-text">Rome, Italy</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-dark">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <img src="./images/florence-image.jpg" alt="florence-image" class="card-image col-12">
+                <h5 class="card-text">Florence, Italy</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-dark">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <img src="./images/lakecomo-image.jpg" alt="lakecomo-image" class="card-image col-12">
+                <h5 class="card-text">Lake Como, Italy</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-dark">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <img src="./images/tulum-image.jpg" alt="tulum-image" class="card-image col-12">
+                <h5 class="card-text">Tulum, Mexico</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-dark">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <img src="./images/mexicocity-image.jpg" alt="mexicocity-image" class="card-image col-12">
+                <h5 class="card-text">Mexico City, Mexico</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-dark">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <img src="./images/lisbon-image.jpg" alt="lisbon-image" class="card-image col-12">
+                <h5 class="card-text">Lisbon, Portugal</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-dark">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <img src="./images/porto-image.jpg" alt="porto-image" class="card-image col-12">
+                <h5 class="card-text">Porto, Portugal</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-dark">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <img src="./images/jodphur-image.jpg" alt="jodphur-image" class="card-image col-12">
+                <h5 class="card-text">Jodphur, India</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-dark">Learn More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
